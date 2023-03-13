@@ -1,0 +1,23 @@
+body {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+    font-family: 'Averia Libre', cursive;font-size: 20px;
+}
+
+header {
+    padding: 10px;
+    font-variant: caps;
+    font-family: 'Lemon', cursive;font-size: 35px;
+}
+
+main {
+    padding: 10px;
+    font-family: 'Averia Libre', cursive;font-size: 20px;
+}
+
+nav {
+    width: 200px;
+    float: middle;
+    font-family: 'Lemon', cursive;font-size: 25px;
+}

@@ -1,0 +1,130 @@
+body {
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;
+    font-family: 'Averia Libre', cursive;font-size: 20px;
+    color: #6E5643;
+    background-color: #ECE7C2;
+    padding: 20px;
+}
+
+header {
+    padding: 10px;
+    font-family: 'Lemon', cursive;font-size: 35px;
+    text-align: center;
+    color: #6E5643;
+}
+
+main {
+    padding: 20px;
+    font-family: 'Averia Libre', cursive;font-size: 20px;
+    text-align: center;
+    color: #6E5643;
+}
+
+hr{
+     width: 70%;
+     background-color: #6E5643;
+     height: 2px;
+     border: none;
+}
+
+nav {
+    width: 300px;
+    text-align: center;
+    font-family: 'Lemon', cursive;font-size: 25px;
+    color: #6E5643;
+    display: inline;
+    padding: 70px;
+    padding-bottom: 21%;
+}
+
+ol, ul {
+  list-style-type: none;
+  margin: 30px;
+  padding: 0;
+}
+
+li {
+    display: block;
+    width: 120px;
+    float: left;
+    margin-left: 115px;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  color: #6E5643;
+  text-decoration: none;
+}
+
+a:hover{
+    color: #b67f53;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #CD6C4A;
+  border: none;
+  color: #ECE7C2;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 6px 2px;
+  cursor: pointer;
+    font-family: 'Averia Libre', cursive;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 10px 0px;
+    border: 2px solid #6E5643;
+  box-sizing: border-box;
+    background-color: #ECE7C2;
+    color: #6E5643;
+    font-family: 'Averia Libre', cursive;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 99%;
+  height: 50%;
+  border: none;
+}
+
+table, th, td {
+  border: 1px solid #6E5643;
+  border-collapse: collapse;
+  padding: 50px;
+  background-color: #ECE7C2;
+  text-align: center;
+  color: #6E5643;
+}
+
+div.gallery {
+    padding: 5px;
+    margin: 0px;
+    overflow: auto;
+    width: 100%;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    justify-items: center;
+}
+
+div.galleryImage {
+    padding: 10px;
+    border-style: solid;
+    border-color: #6E5643;
+    border-width: 1px;
+}
+
+div.imageTitle {
+    font-family: 'Averia Libre', cursive;font-size: 20px;
+    text-align: center;
+    color: #6E5643;
+}
